@@ -17,8 +17,6 @@ run_model <- function(epsilon1_value) {
   return(tc)
 }
 
-length(tc)
-?lsoda
 tc_doctor <- run_model(epsilon_doctor)
 
 tc_no_doctor <- run_model(epsilon_no_doctor)
